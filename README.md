@@ -1,6 +1,11 @@
-# Description
+## Description
 
 Ideas for useful features missing from the CSS spec.
+
+## Quicklinks
+
+* [`as-if`](#as-if-property)
+* [`!default`](#default-rule)
 
 ## `as-if` property
 
