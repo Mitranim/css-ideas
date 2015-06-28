@@ -7,7 +7,7 @@ Ideas for useful features missing from the CSS spec.
 Makes the matched element look _as if_ it also matched the selectors listed
 in the property.
 
-Speaking in procedural terms, the rule adds the listed to the currently matched
+Speaking in procedural terms, the rule adds the listed selectors to the currently matched
 selector, then recalculates the element's styles. This has the potential to make
 several passes, adding more selectors with each pass. User agents will need to
 guard against infinite recursion by ignoring duplicates.
